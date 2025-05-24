@@ -1,0 +1,87 @@
+#card-preview {
+  min-height: 350px;
+  min-width: 350px;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card templates */
+
+.card-template {
+  border-radius: 15px;
+  padding: 30px;
+  width: 320px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  color: #333;
+  text-align: center;
+}
+
+/* Birthday themes */
+.cute {
+  background: #ffecf1;
+  color: #d6336c;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.elegant {
+  background: #f0f0f5;
+  color: #4b3b47;
+  font-family: 'Georgia', serif;
+}
+.minimal {
+  background: white;
+  color: #222;
+  font-family: 'Arial', sans-serif;
+  border: 2px solid #ddd;
+}
+
+/* Wedding themes */
+.floral {
+  background: #fff0f5;
+  color: #a63e75;
+  font-family: 'Dancing Script', cursive;
+}
+.modern {
+  background: #f4f6f8;
+  color: #333;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+.classic {
+  background: #fef9f3;
+  color: #5a4636;
+  font-family: 'Times New Roman', serif;
+}
+
+/* Business themes */
+.formal {
+  background: #f2f4f7;
+  color: #222;
+  font-family: 'Arial', sans-serif;
+}
+.bold {
+  background: #000;
+  color: #fff;
+  font-family: 'Impact', sans-serif;
+}
+.clean {
+  background: #ffffff;
+  color: #555;
+  font-family: 'Segoe UI', sans-serif;
+  border: 1px solid #ccc;
+}
+.body-birthday {
+  background: linear-gradient(135deg, #dbdbf9, #D8BFD8); /* Lavender */
+  transition: background 0.5s ease;
+}
+
+.body-wedding {
+  background: linear-gradient(135deg, #FFC0CB, #FFB6C1); /* Pink */
+  transition: background 0.5s ease;
+}
+
+.body-business {
+  background: linear-gradient(to bottom right, #f8f8f8, #e6e6e6); /* Off White */
+  transition: background 0.5s ease;
+}
